@@ -1,12 +1,75 @@
-# Kali Linux & Cybersecurity Foundations
+# Cybersecurity Learning Progress – Kali & Networking
 
-This repository shows my learning progress in:
+## Purpose
+This repository documents what I have practiced so far in Kali Linux and networking, and my learning path toward cybersecurity, threat intelligence, and blue-team concepts.
 
-- Networking basics
-- Nmap scanning
-- Kali Linux usage
-- Introduction to CVE/CWE
-- MITRE ATT&CK concepts
+---
 
-Goal:
-To prepare for threat intelligence and blue team projects.
+## What I Have Done So Far
+
+### 1. Networking Basics
+- Practiced connectivity testing using:
+  - ping
+  - traceroute
+  - ip a
+  - ip route
+- Understood the difference between:
+  - reachability testing (ICMP – ping)
+  - service discovery (TCP/UDP – nmap)
+
+### 2. Nmap Scanning Practice
+- Performed scans on different targets such as:
+  - google.com
+  - 8.8.8.8
+- Used commands:
+  - nmap google.com
+  - nmap -sV google.com
+  - nmap -T3 google.com
+- Observed that:
+  - google.com shows ports like 80/tcp and 443/tcp because it is a web server
+  - DNS servers behave differently from web servers
+  - nmap reveals services while ping only checks if host is alive
+
+### 3. Kali Linux Hands-On
+- Basic Linux commands for navigation and analysis  
+- Reading terminal outputs and logs  
+- Writing simple bash scripts for host discovery  
+- Troubleshooting network issues inside Kali
+
+### 4. Security Concepts Started
+- Learning the difference between:
+  - CVE – real vulnerability instance  
+  - CWE – category of weakness
+- Introduction to:
+  - MITRE ATT&CK and TTPs  
+  - Defensive mindset (MITRE D3FEND)
+
+---
+
+## What I Learned
+
+- Ping = “Is the system alive?”
+- Nmap = “What services are running on that system?”
+- Different targets expose different ports based on their role  
+- Timing options like -T3 affect scan behavior  
+- Cybersecurity requires understanding, not just running tools
+
+---
+
+## What I Am Going to Learn Next
+
+- MISP platform for threat intelligence sharing  
+- MITRE ATT&CK mapping of real attacks  
+- MITRE D3FEND defensive techniques  
+- Deeper Nmap scanning and log analysis  
+- SOC workflow and vulnerability analysis
+
+---
+
+## Goal
+
+To become capable of:
+- Understanding attacks through ATT&CK  
+- Thinking like a defender using D3FEND  
+- Contributing to threat intelligence and analysis tasks  
+- Working effectively in a cybersecurity project environment
