@@ -5,6 +5,8 @@ This file shows my practical observation of how ping and nmap behave differently
 
 ### Command Used
 nmap -sV google.com
+###screenshot
+[nmap google scan](Screenshot_2026-11_20_23_44.png)
 
 
 
