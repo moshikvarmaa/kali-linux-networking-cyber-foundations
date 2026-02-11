@@ -1,0 +1,47 @@
+This file shows my practical observation of how ping and nmap behave differently against:
+- google.com
+- 8.8.8.8
+## Nmap Service Scan on google.com
+
+### Command Used
+nmap -sV google.com
+
+
+
+### My Observation
+
+- Detected open ports:
+  - 80/tcp – HTTP
+  - 443/tcp – HTTPS
+- Nmap was able to identify services using -sV (version detection)
+- This shows google.com is primarily a web server
+- Unlike ping, this reveals actual running services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+what is ping?
+ping is a network utility that uses icmp packets to check whether a host is alive/reachable and to measure round trip latency and packet loss which indicates the strength of the network.
+In,simple analogy ping is like teacher taking attendance in a class if he/she calls a name of student in the class if he replys to the call he is present if not he is absent and here the time for the reply is round trip latency and the voice of the student is strength of the network
+what is nmap?
